@@ -7,9 +7,9 @@ Redirect connections from different ports at one ipv4 address to unique random i
 - Ipv6 \64
 
 ## Installation
-VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=9406148-8H) used as Centos setup
+VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) used as Centos setup
 
-1. `bash <(curl -s "https://raw.githubusercontent.com/Wathfea/letsdoproxy/master/scripts/install.sh")`
+1. `bash <(curl -s "https://raw.githubusercontent.com/Wathfea/letsdoproxy/main/scripts/install.sh")`
 2. The script will reboot your server after installation, so you will need to reconnect to it
 
 3. After installation dowload the file `proxy.zip`, you can find the url in /home/proxy-installer/proxies_zip_url.txt and the password in /home/proxy-installer/proxies_zip_password.txt
