@@ -12,7 +12,7 @@ VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) used as Centos 
 1. `bash <(curl -s "https://raw.githubusercontent.com/Wathfea/letsdoproxy/main/scripts/install.sh")`
 2. The script will reboot your server after installation, so you will need to reconnect to it
 
-3. After installation dowload the file `proxy.zip`, you can find the url in /home/proxy-installer/proxies_zip_url.txt and the password in /home/proxy-installer/proxies_zip_password.txt
+3. After installation dowload the file `proxy.zip`, you can find the url and password like: ```cat /home/proxy-installer/proxies_zip_url.txt ``` ```cat /home/proxy-installer/proxies_zip_password.txt ```
    * File structure: `IP4:PORT:LOGIN:PASS`
    * You can use this online [util](http://buyproxies.org/panel/format.php
 ) to change proxy format as you like
