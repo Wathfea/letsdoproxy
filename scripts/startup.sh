@@ -167,8 +167,8 @@ EOF
   WORKDATA="${WORKDIR}/data.txt"
   mkdir $WORKDIR && cd $_
 
-  IP4=$(curl -4 -s icanhazip.com)
-  IP6=$(curl -6 -s icanhazip.com | cut -f1-4 -d':')
+  IP4=$(ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1')
+  IP6=$(ifconfig | grep -Eo 'inet6 ([a-f0-9]{1,4}:){7}[a-f0-9]{1,4}' | awk '{print $2}' | cut -f1-4 -d':')
 
   echo "Internal ip = ${IP4}. Exteranl sub for ip6 = ${IP6}" >> /home/3proxy_install_log
 
