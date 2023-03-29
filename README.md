@@ -3,8 +3,8 @@ Redirect connections from different ports at one ipv4 address to unique random i
 ![cover](cover.svg)
 
 ## Requirements
-- Centos 8
-- Ipv6 \64
+- Centos 8 on Vultr VPS (Only Vultr is working now)
+- Ipv6 \64 enabled on your VPS
 
 ## Installation
 VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) used as Centos setup
