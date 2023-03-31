@@ -7,7 +7,7 @@ Redirect connections from different ports at one ipv4 address to unique random i
 - Ipv6 \64 enabled on your VPS
 
 ## Installation
-Register a VPS on [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) and create a Centos 8 setup with ipv6 enabled
+Register a VPS on [Vultr *100$ free*](https://www.vultr.com/?ref=9406148-8H) and create a Centos 8 setup with ipv6 enabled
 
 1. `bash <(curl -s "https://raw.githubusercontent.com/Wathfea/letsdoproxy/main/scripts/install.sh")`
 2. The script will reboot your server after installation, so you will need to reconnect to it
