@@ -7,7 +7,7 @@ Redirect connections from different ports at one ipv4 address to unique random i
 - Ipv6 \64 enabled on your VPS
 
 ## Installation
-VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) used as Centos setup
+Register a VPS on [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) and create a Centos 8 setup with ipv6 enabled
 
 1. `bash <(curl -s "https://raw.githubusercontent.com/Wathfea/letsdoproxy/main/scripts/install.sh")`
 2. The script will reboot your server after installation, so you will need to reconnect to it
@@ -17,7 +17,11 @@ VPS from [Vultr *100$ free*](https://www.vultr.com/?ref=9406147) used as Centos 
    * You can use this online [util](http://buyproxies.org/panel/format.php
 ) to change proxy format as you like
 
-3. If you need IPV4 proxies you can use [this](https://buyproxies.org/panel/aff.php?aff=2766) service
+4. If you need IPV4 proxies you can use [this](https://buyproxies.org/panel/aff.php?aff=2766) service
+
+
+<a href="https://www.buymeacoffee.com/repgen"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=repgen&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 ## Test your proxy
 
 Install [FoxyProxy](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/) in Firefox
